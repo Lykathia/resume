@@ -8,6 +8,5 @@ clean:
 
 $(TARGET):
 	pdflatex resume.tex
-	mv resume.pdf ../public_html
 
 .PHONY: clean
