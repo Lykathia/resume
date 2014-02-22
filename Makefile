@@ -7,6 +7,7 @@ clean:
 	rm -f *.pdf *.aux *.log
 
 $(TARGET):
-	pdflatex resume.tex
+	pdflatex $(TARGET).tex
+	pdflatex cover.tex
 
 .PHONY: clean
